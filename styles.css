@@ -8,6 +8,9 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
   }
 
   span {
@@ -16,37 +19,31 @@
 
   .specials {
     width: 100%;
-    border: 3px solid #9F91CC;
     border-radius: 20px;
   }
 
   .soup {
     width: 100%;
-    border: 3px solid #9F91CC;
     border-radius: 20px;
   }
 
   .starter  {
     width: 100%;
-    border: 3px solid #9F91CC;
     border-radius: 20px;
   }
 
   .tikka {
     width: 100%;
-    border: 3px solid #9F91CC;
     border-radius: 20px;
   }
 
   .chinese  {
     width: 100%;
-    border: 3px solid #9F91CC;
     border-radius: 20px;
   }
 
   .desserts  {
     width: 100%;
-    border: 3px solid #9F91CC;
     border-radius: 20px;
   }
   p {
@@ -55,11 +52,14 @@
     font-family: 'Roboto Slab', serif;
     padding: 5px;
     color: #F0EBCE;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   h2 {
     text-align: center;
-    border: 2px solid #5C4B99;
+    border: 1px solid grey;
     border-radius: 80px;
     text-transform: uppercase;
     color: #F0EBCE;
@@ -69,7 +69,6 @@
 h1 {
   font-size: 80px;
   color: #F0EBCE;
-  border: 5px outset cornflowerblue;
   border-radius: 30px;
   text-transform: uppercase;
   font-family: 'Lobster', cursive;
